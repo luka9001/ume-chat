@@ -1,0 +1,19 @@
+{
+  "name": "ume/ume-chat",
+  "type": "project",
+  "keywords": [
+    "chat"
+  ],
+  "homepage": "http://www.workerman.net",
+  "license": "MIT",
+  "require": {
+    "workerman/gateway-worker": ">=3.0.0",
+    "workerman/workerman": "~4.0.0",
+    "jpush/jpush": "*",
+    "ext-curl": "*",
+    "ext-mysql": "*",
+    "ext-mysqli": "*",
+    "ext-json": "*",
+    "ext-redis": "*"
+  }
+}
