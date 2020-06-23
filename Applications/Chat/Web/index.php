@@ -102,7 +102,7 @@
             var to_client_id = $("#client_list option:selected").attr("value");
             var to_client_name = $("#client_list option:selected").text();
             // ws.send('{"type":"singleTalk","to_client_id":"'+to_client_id+'","to_client_name":"'+to_client_name+'","content":"'+input.value.replace(/"/g, '\\"').replace(/\n/g,'\\n').replace(/\r/g, '\\r')+'"}');
-            ws.send('{"type":"singleTalk","to_client_id":"7f00000108fc00000001","to_client_name":"89","content":"' + input.value.replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '\\r') + '"}');
+            ws.send('{"type":"singleTalk","to_client_id":"7f00000108fc00000001","to_client_name":"276","content":"' + input.value.replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '\\r') + '"}');
             input.value = "";
             input.focus();
         }
