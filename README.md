@@ -1,45 +1,27 @@
-workerman-chat
-=======
-基于workerman的GatewayWorker框架开发的一款高性能支持分布式部署的聊天室系统。
+# UME交友
 
-GatewayWorker框架文档：http://www.workerman.net/gatewaydoc/
+luka9001@hotmail.com
 
- 特性
-======
- * 使用websocket协议
- * 多浏览器支持（浏览器支持html5或者flash任意一种即可）
- * 多房间支持
- * 私聊支持
- * 掉线自动重连
- * 微博图片自动解析
- * 聊天内容支持微博表情
- * 支持多服务器部署
- * 业务逻辑全部在一个文件中，快速入门可以参考这个文件[Applications/Chat/Event.php](https://github.com/walkor/workerman-chat/blob/master/Applications/Chat/Event.php)   
-  
-下载安装
-=====
-1、git clone https://github.com/walkor/workerman-chat
+#### 介绍
 
-2、composer install
+适用于外网的交友平台，已对接Google的Android Pay和Apple的Apple Pay
+可全球接收短信验证码（https://http-api.d7networks.com）
 
-启动停止(Linux系统)
-=====
-以debug方式启动  
-```php start.php start  ```
+#### 软件截图
+目前代码中界面与截图有改变
 
-以daemon方式启动  
-```php start.php start -d ```
+<img width="150" src="https://images.gitee.com/uploads/images/2020/0729/135838_708af3a5_1423350.png"/>
+<img width="150" src="https://images.gitee.com/uploads/images/2020/0729/135849_6a21c1f7_1423350.png"/>
+<img width="150" src="https://images.gitee.com/uploads/images/2020/0729/135857_9304208c_1423350.png"/>
+<img width="150" src="https://images.gitee.com/uploads/images/2020/0729/135911_da79244d_1423350.png"/>
 
-启动(windows系统)
-======
-双击start_for_win.bat  
+#### 安装教程
 
-注意：  
-windows系统下无法使用 stop reload status 等命令  
-如果无法打开页面请尝试关闭服务器防火墙  
+1.  使用宝塔部署后台 https://gitee.com/WooCloud/qianyuanServer
+2.  部署聊天系统 https://gitee.com/WooCloud/ume-chat
+3.  运行ReactNative的APP  https://gitee.com/WooCloud/Ume0622
 
-测试
-=======
-浏览器访问 http://服务器ip或域:55151,例如http://127.0.0.1:55151
+#### 捐助
+<img width="150" src="https://images.gitee.com/uploads/images/2020/0729/140059_e1929ba3_1423350.jpeg"/>
 
- [更多请访问www.workerman.net](http://www.workerman.net/workerman-chat)
+<img width="150" src="https://images.gitee.com/uploads/images/2020/0729/140111_fda160ac_1423350.jpeg"/>
