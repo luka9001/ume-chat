@@ -17,9 +17,9 @@ luka9001@hotmail.com
 
 #### 安装教程
 
-1.  使用宝塔部署后台 https://gitee.com/WooCloud/qianyuanServer
-2.  部署聊天系统 https://gitee.com/WooCloud/ume-chat
-3.  运行ReactNative的APP  https://gitee.com/WooCloud/Ume0622
+1.  使用宝塔部署后台 https://github.com/luka9001/qianyuanServer
+2.  部署聊天系统 https://github.com/luka9001/ume-chat
+3.  运行ReactNative的APP  https://github.com/luka9001/Ume0622
 
 #### 捐助
 <img width="150" src="https://images.gitee.com/uploads/images/2020/0729/140059_e1929ba3_1423350.jpeg"/>
